@@ -41,6 +41,10 @@ li {
 .pink {
     color: #d621d6 !important;
 }
+.pinkTitle {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
 section {
     margin: 25px 0;
 }
@@ -64,9 +68,6 @@ section {
 a:hover {
     font-weight: bold;
     transition: 0.1s ease-in;
-}
-.signUp p {
-    font-size: 1rem;
 }
 .box-1 div {
     padding: 0 20px;
