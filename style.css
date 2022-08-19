@@ -79,6 +79,9 @@ a:hover {
     justify-items: center;
     align-items: center;
 }
+.dash {
+    color: #919191;
+}
 .cards {
     display: flex;
     justify-content: space-between;
@@ -114,5 +117,5 @@ main section:last-child {
     font-size: 1.7rem;
 }
 .silverText {
-    color: #8f97af;
+    color: #919191;;
 }

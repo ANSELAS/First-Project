@@ -33,7 +33,11 @@ h3 {
 }
 .footerText,
 .copyright span,
-.gridLinks, h3, a {
+.gridLinks, 
+h3 {
+    color: #8d8d8d;
+}
+.links a {
     text-decoration: none;
     color: #8d8d8d;
 }
