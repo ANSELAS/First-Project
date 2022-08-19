@@ -3,7 +3,11 @@
 
 }
 .heroImg img {
-    height: 280px;
+    height: 190px;
+}
+.upsellImg img {
+    width: 180px;
+ 
 }
 .box-1 {
     background: linear-gradient(45deg, #eb148a, #f87001, #17e417);

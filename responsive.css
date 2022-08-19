@@ -2,6 +2,10 @@
     .heroImg img {
         height: 500px;
     }
+    .upsellImg img {
+        width: 200px;
+     
+    }
     header,
     main,
     footer {
