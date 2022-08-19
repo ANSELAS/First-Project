@@ -1,0 +1,42 @@
+.gridLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    align-self: flex-start;
+}
+section {
+    padding: 0 25px
+}
+.logoFoot {
+    width: 140px;
+}
+.footerText {
+    font-size: 1.1rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+.socIcons img {
+    width: 20px;
+    margin: 0 8px;
+    padding: 8px 0;
+}
+.links div {
+    font-size: 1.1rem;
+    margin: 13px 0;
+}
+.copyright span:nth-child(2){
+    opacity: 0;
+}
+.copyright span {
+    font-size: 1.3rem;
+}
+.footerText,
+.copyright span,
+.gridLinks, h3, a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+.copyright span {
+    font-size: 1.2rem;
+}

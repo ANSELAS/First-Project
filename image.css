@@ -1,0 +1,19 @@
+.logo img{
+    width: 200px;
+
+}
+.heroImg img {
+    height: 280px;
+}
+.box-1 {
+    background: linear-gradient(45deg, #eb148a, #f87001, #17e417);
+    height: 220px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.companies img {
+    width: 150px;
+}
+.com-5 {
+    opacity: 0;
+}

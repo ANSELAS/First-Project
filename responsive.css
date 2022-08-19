@@ -1,0 +1,64 @@
+@media screen and (min-width: 1200px) {
+    .heroImg img {
+        height: 500px;
+    }
+    header,
+    main,
+    footer {
+        margin: 0 25px;
+    }
+    .mobNav,
+    .checkbox,
+    .burger {
+        display: none;
+    }
+    .deskNav {
+        display: flex;
+    }
+    .deskNav li {
+        margin: 0 15px;
+    }
+    .deskNav a {
+        font-weight: normal;
+    }
+    .deskNav li:hover {
+        font-size: 1.5rem;
+    }
+    .box-1 {
+        border-radius: 30px;
+    }
+    .companies {
+        display: flex;
+        justify-content: space-between;
+    }
+    .companies img {
+        width: 200px;
+    }
+    .com-5 {
+        opacity: 1;
+    }
+    .cards {
+        overflow-x: hidden
+    }
+    .mainLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .column {
+        display: block;
+    }
+    .column div {
+        padding: 5px 0;
+    }
+    .flexEnd {
+        display: flex;
+    }
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copyright span:nth-child(2){
+        opacity: 1;
+    }
+}

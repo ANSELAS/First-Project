@@ -1,0 +1,117 @@
+body {
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header,
+#hero,
+.companies,
+.nftCards,
+.lastBox {
+    margin: 0 25px;
+}
+nav {
+    height: 100px;
+}
+.deskNav {
+    display: none;
+}
+.mobNav {
+    display: flex;
+}
+.noDots li {
+    margin: 0 5px;
+}
+li {
+    list-style: none;
+}
+.noDots a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.pink {
+    color: #d621d6 !important;
+}
+section {
+    margin: 25px 0;
+}
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    border: 4px solid #f98b0b;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    font-weight: bold;
+    transition: 0.1s ease-in;
+}
+.signUp p {
+    font-size: 1rem;
+}
+.box-1 div {
+    padding: 0 20px;
+}
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.cards li {
+    background-color: #d9dde2;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.flex-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;      
+}
+main section:last-child {
+    border-top: 1px solid #8f97af;
+    border-bottom: 1px solid #8f97af;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orange {
+    color: #F98B0B;
+    font-size: 1rem;
+}
+.smallText {
+    font-size: 1rem;
+}
+.bold {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.silverText {
+    color: #8f97af;
+}
